@@ -1,3 +1,17 @@
+
+@font-face {
+  font-family: 'DIN Next LT Pro Bold';
+  src: url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.eot');
+  src: url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.eot?#iefix') format('embedded-opentype'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.woff2') format('woff2'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.woff') format('woff'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.ttf') format('truetype'), url('//db.onlinewebfonts.com/t/3a88649e176a40a6d80b395ca0ae430d.svg#DIN Next LT Pro Bold') format('svg');
+}
+
+:root {
+  --v-red: #ff4655;
+  --v-white: #ece8e1;
+  --v-black: #0f1923;
+  --v-outline: rgba(236, 232, 225, .5);
+}
+
 .App {
   text-align: center;
 }
@@ -12,20 +26,19 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.logo {
+  margin-bottom: 40px;
+  fill: var(--v-white);
+}
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  background: transparent;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +48,123 @@
   to {
     transform: rotate(360deg);
   }
+}
+select {
+  font-family: 'DIN Next LT Pro Bold';
+  font-size: 1.9rem;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: .7rem;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--v-white);
+  background-color: #0f1923;
+}
+input [type = submit], input [type = reset]{
+
+  font-size: 1.9rem;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: .7rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--v-white);
+  border: 0;
+  background-color: transparent;
+}
+
+button {
+  font-family: 'DIN Next LT Pro Bold';
+  font-size: 1.9rem;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: .7rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--v-white);
+  border: 0;
+  background-color: transparent;
+}
+
+button:hover {
+  color: var(--v-white);
+}
+
+
+button::before, button::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: calc(50% - .4rem);
+  content: '';
+  border: 1px solid var(--v-outline);
+  background-color: transparent;
+}
+
+button::before {
+  top: 0;
+  border-bottom: 0;
+}
+
+button::after {
+  bottom: 0;
+  border-top: 0;
+}
+.hover-effect {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -5%;
+  width: 110%;
+  height: 100%;
+  content: '';
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transform: translateX(-100%) skew(-10deg);
+  background-color: var(--v-red);
+}
+
+button:hover .hover-effect {
+  transform: translateX(0) skew(-10deg);
+}
+
+html, body {
+  font-size: 10px;
+  margin: 0;
+  color: var(--v-white);
+
+  text-rendering: optimizeLegibility;
+}
+html {
+  display: table;
+  margin: auto;
+  background-image: url(https://images.ctfassets.net/xkgml32gyacg/E9ZUZBlBTo0SUvZbKzP2N/d50c4da8479f8a15f0e4808075b44fd7/FH9KQSOVUAIXVbN.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.box {
+  width: 70%;
 }
