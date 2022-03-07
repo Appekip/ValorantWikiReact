@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e53b5ab-1cfd-4bdf-a71e-d7345222c769" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/components/Agents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Weapons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Playercards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Playercards.js" afterDir="false" />
-    </list>
+    <list default="true" id="9e53b5ab-1cfd-4bdf-a71e-d7345222c769" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactrouter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,6 +90,7 @@
       <updated>1646302529161</updated>
       <workItem from="1646302530278" duration="16959000" />
       <workItem from="1646383169311" duration="13962000" />
+      <workItem from="1646646513312" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1646384798231</created>
@@ -131,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646384861590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1646646754466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646646754466</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +138,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -169,16 +167,18 @@
       <screen x="1920" y="-368" width="1080" height="1920" />
     </state>
     <state x="2144" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384514109" />
-    <state x="390" y="207" key="CommitChangelistDialog2" timestamp="1646385135457">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="699" y="276" key="CommitChangelistDialog2" timestamp="1646646753569">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="390" y="207" key="CommitChangelistDialog2/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646385135457" />
     <state x="2034" y="296" key="CommitChangelistDialog2/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384861050" />
-    <state x="740" y="296" key="FileChooserDialogImpl" timestamp="1646386511035">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="699" y="276" key="CommitChangelistDialog2/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646646753569" />
+    <state x="1326" y="395" key="FileChooserDialogImpl" timestamp="1646646772388">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="740" y="296" key="FileChooserDialogImpl/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646386511035" />
     <state x="2336" y="158" key="FileChooserDialogImpl/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384757909" />
+    <state x="1326" y="395" key="FileChooserDialogImpl/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646646772388" />
     <state width="886" height="55" key="GridCell.Tab.0.bottom" timestamp="1646400058580">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
