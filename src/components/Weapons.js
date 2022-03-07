@@ -1,13 +1,15 @@
 import React from "react";
 const url = 'https://valorant-api.com/v1/';
+
 let uuid = "6c56e968-4b9c-c9d6-068a-109a03b13866";
 let search ="playercards";
 
-function Playercards() {
+function Weapons() {
+
     fullData();
     find();
     function change(){
-        uuid = (document.getElementById("select").value);
+        uuid = (document.getElementById("Agents").value);
         find();
     }
 
@@ -28,13 +30,11 @@ function Playercards() {
         console.log(data)
     }
 
-
-
-    return <div id="PCards">
-        <img src="https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png" className="App-logo" alt="logo" id="b"/>
+    return <div id="Weapons">
+        <img src={"https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png"} className="App-logo" alt="logo" id="b"/>
         <h2 id={"a"}></h2>
 
-        <select id="select">
+        <select id="Agents">
             <option value="6c56e968-4b9c-c9d6-068a-109a03b13866">Jett</option>
             <option value="1a42dc71-40aa-9873-4729-b788b043a644">Reyna</option>
             <option value="a89bd44e-4b47-7ce1-27a6-0189c1ad8c2f">Cypher</option>
@@ -44,7 +44,6 @@ function Playercards() {
         <button id="button" onClick={change}>Change</button>
     </div>
 
-
 }
 
-export default Playercards;
+export default Weapons;

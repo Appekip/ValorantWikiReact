@@ -16,6 +16,16 @@
   text-align: center;
 }
 
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background: transparent;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -29,16 +39,6 @@
 .logo {
   margin-bottom: 40px;
   fill: var(--v-white);
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  background: transparent;
 }
 
 @keyframes App-logo-spin {
@@ -156,15 +156,41 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
-#container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'DIN Next LT Pro Bold';
+  font-size: 1.9rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--v-white);
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+h2 {
+  font-family: 'DIN Next LT Pro Bold';
+  font-size: 1.9rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--v-white);
 }
 
-
-.box {
-  width: 70%;
+#bar {
+  font-family: 'DIN Next LT Pro Bold';
+  font-size: 1.9rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--v-white);
+}
+#linkText{
+  padding: 10px;
+  color: var(--v-white);
+  text-underline: transparent;
 }
