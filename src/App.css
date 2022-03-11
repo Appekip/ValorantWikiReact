@@ -26,34 +26,12 @@
   background: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-.logo {
-  margin-bottom: 40px;
-  fill: var(--v-white);
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 select {
   font-family: 'DIN Next LT Pro Bold';
   font-size: 1.9rem;
   font-weight: 400;
-  position: relative;
   display: block;
   width: 100%;
   margin-bottom: 3rem;
@@ -64,21 +42,7 @@ select {
   color: var(--v-white);
   background-color: #0f1923;
 }
-input [type = submit], input [type = reset]{
 
-  font-size: 1.9rem;
-  font-weight: 400;
-  position: relative;
-  display: block;
-  width: 100%;
-  margin-bottom: 3rem;
-  padding: .7rem;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: var(--v-white);
-  border: 0;
-  background-color: transparent;
-}
 
 button {
   font-family: 'DIN Next LT Pro Bold';
@@ -120,6 +84,9 @@ button::after {
   bottom: 0;
   border-top: 0;
 }
+
+/* Hover Effect */
+
 .hover-effect {
   position: absolute;
   z-index: 1;
@@ -138,6 +105,90 @@ button:hover .hover-effect {
   transform: translateX(0) skew(-10deg);
 }
 
+/* LABEL  */
+
+.label {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.label:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+
+/* Label Text */
+
+.label-text {
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 1.9rem 3rem;
+}
+
+/* Right Bottom Corner dot */
+
+.label-text:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: .6rem;
+  height: .6rem;
+  content: '';
+  transition: background-color .2s ease-in;
+  background-color: var(--v-black);
+}
+
+button:hover .label-text:after {
+  background-color: var(--v-white);
+}
+
+input:hover .label-text:after {
+  background-color: var(--v-white);
+}
+/* PRIMARY BUTTON */
+
+.primary {
+  color: var(--v-black);
+}
+
+.primary .label::before {
+  background-color: var(--v-white);
+}
+
+/* OUTLINE BUTTON */
+
+.outline {
+  color: var(--v-white);
+}
+
+.outline .label::before, .outline .label::after {
+  border: 1px solid var(--v-outline);
+}
+
+/* OUTLINE RED BUTTON */
+
+.outline+.red {
+  color: var(--v-red);
+}
+
+.outline+.red:hover {
+  color: var(--v-white);
+}
+
+.outline+.red .label::before, .outline+.red .label::after {
+  border-color: var(--v-red);
+}
+
+
+
 html, body {
   font-size: 10px;
   margin: 0;
@@ -148,7 +199,7 @@ html, body {
 html {
   display: table;
   margin: auto;
-  background-image: url(https://images.ctfassets.net/xkgml32gyacg/E9ZUZBlBTo0SUvZbKzP2N/d50c4da8479f8a15f0e4808075b44fd7/FH9KQSOVUAIXVbN.jpg);
+  background-image: url(https://cdn.wallpapersafari.com/7/33/xULWHr.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -181,6 +232,23 @@ h2 {
   color: var(--v-white);
 }
 
+h3{
+  font-family: 'DIN Next LT Pro Bold';
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--v-white);
+}
+h1{
+  font-family: 'DIN Next LT Pro Bold';
+  font-size: 8rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--v-white);
+}
+
 #bar {
   font-family: 'DIN Next LT Pro Bold';
   font-size: 1.9rem;
@@ -194,3 +262,18 @@ h2 {
   color: var(--v-white);
   text-underline: transparent;
 }
+#info, #abilities, #maps .mRow{
+  display: flex;
+
+}
+
+#Agents, #PCards, #Weapons, #maps{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#b{
+  padding: 15px;
+}
+
+
+

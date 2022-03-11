@@ -1,48 +1,56 @@
 import React from "react";
-let uuid = "6c56e968-4b9c-c9d6-068a-109a03b13866";
 const url = 'https://valorant-api.com/v1/';
-let search ="playercards";
+let search ="maps";
 
 function Maps() {
-
     fullData();
-    find();
-    function change(){
-        uuid = (document.getElementById("Agents").value);
-        find();
-    }
-
-    async function find() {
-
-        const response = await fetch(url +search + "/"+ uuid);
-        const data = await response.json();
-        console.log(data);
-        document.getElementById('a').textContent =data.data.displayName ;
-        document.getElementById('b').src=data.data.largeArt;
-    }
-
-    async function fullData() {
-        const data = [];
-        const response = await fetch(url + search)
-            .then((res) => res.json());
-        data.push(response);
-        console.log(data)
-    }
-
-    return <div id="Maps">
-        <img src={"https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png"} className="App-logo" alt="logo" id="b"/>
-        <h2 id={"a"}></h2>
-
-        <select id="Agents">
-            <option value="6c56e968-4b9c-c9d6-068a-109a03b13866">Jett</option>
-            <option value="1a42dc71-40aa-9873-4729-b788b043a644">Reyna</option>
-            <option value="a89bd44e-4b47-7ce1-27a6-0189c1ad8c2f">Cypher</option>
-            <option value="42cc3d8c-4e77-ee86-56bb-30a6025a89c0">Killjoy</option>
-            <option value="9df9aa67-4ff7-988d-cf72-599a7d5fe2bf">Sage</option>
-        </select>
-        <button id="button" onClick={change}>Change</button>
+    return <div id="maps">
     </div>
+}
 
+async function fullData() {
+        const response = await fetch(url + search);
+        const data = await response.json();
+        let a = data.data.length / 2;
+        let x = 0;
+        let y = Math.round(a);
+        let z = 0;
+        for (let k = 0; k < Math.ceil(a); k++){
+            x++;
+            createMapRow(x);
+            for (let i = 0; i < y; i++){
+                createMap(z, x);
+                document.getElementById("map" + z + "Title").textContent = data.data[z].displayName;
+                document.getElementById("map" + z + "Img").src= data.data[z].splash;
+                document.getElementById("map" + z + "Img").width = 256;
+                document.getElementById("map" + z + "Img").height = 144;
+                document.getElementById("map" + z + "schema").width = 256;
+                document.getElementById("map" + z + "schema").height = 256;
+                document.getElementById("map" + z + "schema").src=data.data[z].displayIcon;
+                z++;
+            }
+        }
+}
+
+function createMap(a, k) {
+    let map = document.createElement("div");
+    map.id = "map" + a;
+    let mapTitle = document.createElement("h2");
+    mapTitle.id = "map" + a + "Title";
+    let mapImg = document.createElement("img");
+    mapImg.id="map" + a + "Img";
+    let mapSchema = document.createElement("img");
+    mapSchema.id="map" + a + "schema";
+    map.appendChild(mapTitle);
+    map.appendChild(mapImg);
+    map.appendChild(mapSchema);
+    document.getElementById("mapRow" + k).appendChild(map);
+}
+function createMapRow(k){
+    let mr = document.createElement("div");
+    mr.id = "mapRow" + k;
+    mr.className = "mRow";
+    document.getElementById("maps").appendChild(mr);
 }
 
 export default Maps;

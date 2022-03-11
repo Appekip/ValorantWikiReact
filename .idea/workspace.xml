@@ -2,9 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e53b5ab-1cfd-4bdf-a71e-d7345222c769" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbFile/dbConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbFile/dbOperations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/14.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/17.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/18.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Agents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Agents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Maps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Playercards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Playercards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Weapons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weapons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +92,19 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/server.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -70,6 +115,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.server" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -95,7 +157,10 @@
       <updated>1646302529161</updated>
       <workItem from="1646302530278" duration="16959000" />
       <workItem from="1646383169311" duration="13962000" />
-      <workItem from="1646646513312" duration="2192000" />
+      <workItem from="1646646513312" duration="39454000" />
+      <workItem from="1646784093389" duration="6714000" />
+      <workItem from="1646838056813" duration="1966000" />
+      <workItem from="1646843562015" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1646384798231</created>
@@ -179,42 +244,92 @@
       <screen x="1920" y="-368" width="1080" height="1920" />
     </state>
     <state x="2144" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384514109" />
+    <state x="1438" y="431" key="#npm_start" timestamp="1646787596822">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1438" y="431" key="#npm_start/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646787596822" />
+    <state x="1438" y="431" key="#server" timestamp="1646787615446">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1439" y="407" key="#server.js" timestamp="1646787525826">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1439" y="407" key="#server.js/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646787525826" />
+    <state x="1438" y="431" key="#server/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646787615446" />
     <state x="699" y="276" key="CommitChangelistDialog2" timestamp="1646648054703">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="390" y="207" key="CommitChangelistDialog2/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646385135457" />
     <state x="2034" y="296" key="CommitChangelistDialog2/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384861050" />
     <state x="699" y="276" key="CommitChangelistDialog2/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646648054703" />
-    <state x="1326" y="395" key="FileChooserDialogImpl" timestamp="1646648006944">
-      <screen x="0" y="0" width="3440" height="1440" />
+    <state x="740" y="296" key="FileChooserDialogImpl" timestamp="1646983068415">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="296" key="FileChooserDialogImpl/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646386511035" />
     <state x="2336" y="158" key="FileChooserDialogImpl/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384757909" />
-    <state x="1326" y="395" key="FileChooserDialogImpl/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646648006944" />
-    <state x="1591" y="614" width="260" height="211" key="Github.ShareDialog" timestamp="1646648561852">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state x="1591" y="614" width="260" height="211" key="Github.ShareDialog/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646648561852" />
-    <state width="886" height="55" key="GridCell.Tab.0.bottom" timestamp="1646400058580">
+    <state x="740" y="296" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1646983068415" />
+    <state x="1326" y="395" key="FileChooserDialogImpl/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646789131179" />
+    <state x="888" y="461" width="260" height="198" key="Github.ShareDialog" timestamp="1646983091773">
       <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="888" y="461" width="260" height="198" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1646983091773" />
+    <state x="1591" y="614" width="260" height="211" key="Github.ShareDialog/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646648561852" />
+    <state width="1668" height="147" key="GridCell.Tab.0.bottom" timestamp="1646844625641">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="886" height="55" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646400058580" />
     <state width="886" height="55" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384800550" />
-    <state width="886" height="55" key="GridCell.Tab.0.center" timestamp="1646400058580">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1668" height="147" key="GridCell.Tab.0.bottom/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646844625641" />
+    <state width="1668" height="147" key="GridCell.Tab.0.center" timestamp="1646844625640">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="886" height="55" key="GridCell.Tab.0.center/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646400058580" />
     <state width="886" height="55" key="GridCell.Tab.0.center/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384800550" />
-    <state width="886" height="55" key="GridCell.Tab.0.left" timestamp="1646400058580">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1668" height="147" key="GridCell.Tab.0.center/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646844625640" />
+    <state width="1668" height="147" key="GridCell.Tab.0.left" timestamp="1646844625640">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="886" height="55" key="GridCell.Tab.0.left/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646400058580" />
     <state width="886" height="55" key="GridCell.Tab.0.left/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384800550" />
-    <state width="886" height="55" key="GridCell.Tab.0.right" timestamp="1646400058580">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1668" height="147" key="GridCell.Tab.0.left/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646844625640" />
+    <state width="1668" height="147" key="GridCell.Tab.0.right" timestamp="1646844625641">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state width="886" height="55" key="GridCell.Tab.0.right/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646400058580" />
     <state width="886" height="55" key="GridCell.Tab.0.right/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384800550" />
+    <state width="1668" height="147" key="GridCell.Tab.0.right/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646844625641" />
+    <state width="3419" height="507" key="GridCell.Tab.1.bottom" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.1.bottom/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
+    <state width="3419" height="507" key="GridCell.Tab.1.center" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.1.center/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
+    <state width="3419" height="507" key="GridCell.Tab.1.left" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.1.left/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
+    <state width="3419" height="507" key="GridCell.Tab.1.right" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.1.right/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
+    <state width="3419" height="507" key="GridCell.Tab.2.bottom" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.2.bottom/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
+    <state width="3419" height="507" key="GridCell.Tab.2.center" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.2.center/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
+    <state width="3419" height="507" key="GridCell.Tab.2.left" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.2.left/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
+    <state width="3419" height="507" key="GridCell.Tab.2.right" timestamp="1646831008240">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="3419" height="507" key="GridCell.Tab.2.right/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646831008240" />
     <state x="1221" y="363" key="SettingsEditor" timestamp="1646648517669">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
@@ -228,6 +343,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646385118882" />
+    <state x="1437" y="529" key="jetbrains.nodejs.interpreters-dialog" timestamp="1646787524298">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1437" y="529" key="jetbrains.nodejs.interpreters-dialog/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646787524298" />
+    <state x="1383" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1646786170329">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1383" y="325" width="672" height="678" key="search.everywhere.popup/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646786170329" />
     <state x="1550" y="512" key="svn.repositoryBrowser" timestamp="1646648595764">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
