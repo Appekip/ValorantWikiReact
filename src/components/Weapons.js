@@ -89,12 +89,15 @@ async function dbSave() {
         search,
         date
     };
-    console.log(JSON.stringify(entry));
-    fetch('http://localhost:3001/searches', {
+    const options = {
         method: 'POST',
-        headers: {"Content-Type": "application/json"},
+        headers: {
+            'Content-Type': 'application/json'
+        },
         body: JSON.stringify(entry)
-    })
+    };
+    fetch('localhost:4000/Data', options);
+    console.log("Fetch " + JSON.stringify(entry));
 }
 
 async function changeSkin() {
