@@ -14,7 +14,7 @@ function App() {
         <Router>
             <div className="App">
                 <header className="App-header">
-                    <div id="Content">
+                        <div id="Content">
                         <Switch>
                             <Route path="/Home">
                                 <Home/>
