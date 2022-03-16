@@ -1,7 +1,7 @@
 # ValorantWikiReact
 
 My vision for the project was to make a wiki site for the video game Valorant, my main concern was future proofing so I avoided hard coding as much as possible. 
-None of the displayed data is hardcoded, so the application needs an internet connection to work. The application pulls data from the api and then generates the website's html
+None of the displayed data is hardcoded, so the application needs a connection to the api to work. The application pulls data from the api and then generates the website's html
 around the data it received from the api. Most of the site's html is created in a for loop based on the amount of data the api was able to give. 
 
 Application was made using React, Node.js and Mysql. I also used two different API's for the data.
