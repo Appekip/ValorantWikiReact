@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9e53b5ab-1cfd-4bdf-a71e-d7345222c769" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/14.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Agents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Agents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Playercards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Playercards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weapons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weapons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +128,7 @@
       <workItem from="1646838056813" duration="1966000" />
       <workItem from="1646843562015" duration="599000" />
       <workItem from="1646983019113" duration="5412000" />
-      <workItem from="1647398160689" duration="3651000" />
+      <workItem from="1647398160689" duration="6958000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1646384798231</created>
@@ -220,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647398958790</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="asd">
+      <created>1647401867151</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647401867151</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +228,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#ESLint" timestamp="1646302938652">
@@ -272,13 +260,13 @@
     </state>
     <state x="1439" y="407" key="#server.js/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646787525826" />
     <state x="1438" y="431" key="#server/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646787615446" />
-    <state x="987" y="272" key="CommitChangelistDialog2" timestamp="1647398957595">
+    <state x="987" y="272" key="CommitChangelistDialog2" timestamp="1647401863099">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="390" y="207" key="CommitChangelistDialog2/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646385135457" />
     <state x="2034" y="296" key="CommitChangelistDialog2/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@1920.-368.1080.1920" timestamp="1646384861050" />
     <state x="390" y="207" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1646983128566" />
-    <state x="987" y="272" key="CommitChangelistDialog2/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1647398957595" />
+    <state x="987" y="272" key="CommitChangelistDialog2/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1647401863099" />
     <state x="1421" y="388" key="FileChooserDialogImpl" timestamp="1647398850528">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
@@ -355,12 +343,12 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="1221" y="363" key="SettingsEditor/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1646648517669" />
-    <state x="1418" y="354" key="Vcs.Push.Dialog.v2" timestamp="1647398232147">
+    <state x="1418" y="354" key="Vcs.Push.Dialog.v2" timestamp="1647401869318">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="552" y="274" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/1920.-368.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1646385025468" />
     <state x="654" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1646983154522" />
-    <state x="1418" y="354" key="Vcs.Push.Dialog.v2/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1647398232147" />
+    <state x="1418" y="354" key="Vcs.Push.Dialog.v2/0.0.3440.1440/3440.-933.1440.2560@0.0.3440.1440" timestamp="1647401869318" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1646385118882">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
