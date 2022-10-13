@@ -48,7 +48,7 @@ application loads the Agents.js component and runs the fullData() function and c
           First thing that happens is a feth request to  the geolocation api (https://geolocation-db.com/json/) and the data is saved to an variable called data.
 
           DISCLAIMER
-          This geolocation API might get blocked by your browser security settings, to insure it works use Firefox. However if this doesn't crash the app, it just doesn't save 
+          This geolocation API might get blocked by your browser security settings, to insure it works use Firefox. However this doesn't crash the app, it just doesn't save 
           anything to the db. 
 
           After this it gathers all of the data that will be saved and puts it into an variable called entry.
