@@ -11,7 +11,7 @@ Valorant-API, https://valorant-api.com/
 Geolocation, https://geolocation-db.com/json/
 
 How it works:
-When the application is launched and the user chooses the site what content they want to see (this example uses Agents, but most of the components work in a similar way) the
+When the application is launched and the user chooses what type of content they want to see (this example uses Agents, but most of the components work in a similar way) the
 application loads the Agents.js component and runs the fullData() function and creates the template for the site. It creates and empty dropdown menu (select element) and a submit button.
 
     fullData(){
